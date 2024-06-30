@@ -28,7 +28,11 @@ In this task, you'll add a new endpoint to the backend application which provide
 
 1.4 Navigate to the application in the web browser and run a postcode search; observe how the chart has now appeared rendering the crime statistics returned from your new API endpoint.
 
-1.5 Look at `src/Client/Index.fs` to see how data from the API flows through to the chart. Which function is used to retrieve the data from the API? Where does the data go once the front-end receives the network response?
+1.5 Look at `src/Client/Index.fs` to see how data from the API flows through to the chart\
+    Which function is used to retrieve the data from the API?\
+    *dojoApi.GetCrimes*\
+    Where does the data go once the front-end receives the network response?\
+    *Into a Report type*
 
 ## 2. Add shared code
 
